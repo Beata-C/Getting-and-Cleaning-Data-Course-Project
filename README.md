@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 To read the final file use:
 
 ```{r}
-tidy_data <- read.table("/data/TidyDataUCIHAR.txt", check.names = FALSE, stringsAsFactors = FALSE)
+tidy_data <- read.table("/data/TidyDataUCIHAR.txt", check.names = FALSE, stringsAsFactors = FALSE, header = TRUE)
 ```
 
 The output file is "/data/TidyDataUCIHAR.txt"
