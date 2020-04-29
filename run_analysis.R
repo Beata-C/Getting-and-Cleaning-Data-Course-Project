@@ -1,7 +1,7 @@
 run_analysis <- function(zip_file){
   
   ## To read the final file use:
-  ## tidy_data <- read.table("/data/TidyDataUCIHAR.txt", check.names = FALSE, stringsAsFactors = FALSE)
+  ## tidy_data <- read.table("/data/TidyDataUCIHAR.txt", check.names = FALSE, stringsAsFactors = FALSE, header = TRUE)
   ## The output file is "/data/TidyDataUCIHAR.txt"
   
   ## the link to download file
